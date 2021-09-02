@@ -1,4 +1,5 @@
-# -*- coding: UTF-8 -*-
+#! /user/bin/env python
+# -*- coding:utf-8 -*-
 
 from appium import webdriver
 import time

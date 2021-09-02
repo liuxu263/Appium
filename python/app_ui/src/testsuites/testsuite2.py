@@ -1,7 +1,10 @@
-# -*- coding: UTF-8 -*-
-from python.web_ui.testcases.testcase1 import Test1
-from python.web_ui.testcases.testcase2 import Test2
+#! /user/bin/env python
+# -*- coding:utf-8 -*-
+
 import unittest
+
+from python.app_ui.src.testcases.testcase1 import Test1
+from python.app_ui.src.testcases.testcase2 import Test2
 
 
 class TestSuite2(object):
